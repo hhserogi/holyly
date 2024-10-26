@@ -1,0 +1,19 @@
+{
+  "name": "dedust-parser-server",
+  "version": "1.0.0",
+  "description": "An Express server for parsing DeDust and TonViewer data",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dedust-parser-server": "file:",
+    "express": "^4.18.1",
+    "puppeteer": "^23.3.0"
+  }
+}
