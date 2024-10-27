@@ -15,7 +15,7 @@ const Pools = () => {
     const fetchPoolData = async () => {
       try {
         const response = await axios.get(
-          "https://redesigned-palm-tree.onrender.com/api/pool-info"
+          "https://holycoin.online/api/pool-info"
         );
         setPoolData(response.data);
         setLoading(false);
