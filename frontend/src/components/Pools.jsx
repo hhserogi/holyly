@@ -15,7 +15,7 @@ const Pools = () => {
     const fetchPoolData = async () => {
       try {
         const response = await axios.get(
-          "http://backend:8000/api/pool-info"
+          "http://redesigned-palm-tree.onrender.com/api/pool-info"
         );
         setPoolData(response.data);
         setLoading(false);
