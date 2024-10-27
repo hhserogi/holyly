@@ -11,7 +11,7 @@ const Main = () => {
     const fetchElementData = async () => {
       try {
         const response = await axios.get(
-          "http://backend:8000/api/element-info"
+          "http://redesigned-palm-tree.onrender.com/api/element-info"
         );
         setElementData(response.data.elementData);
         setLoading(false);
