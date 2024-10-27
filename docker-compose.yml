@@ -8,19 +8,22 @@ services:
       - "80:80"
     volumes:
       - "./nginx.conf:/etc/nginx/"
-    depends_on: -frontend
-      -backend
+    depends_on: 
+      - frontend
+      - backend
     networks:
       - dev
 
   backend:
     build:
       context: ./backend
+      dockerfile: Dockerfile
     networks:
       - dev
 
   frontend:
     build:
       context: ./frontend
+      dockerfile: Dockerfile
     networks:
       - dev
