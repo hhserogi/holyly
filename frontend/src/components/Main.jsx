@@ -11,7 +11,7 @@ const Main = () => {
     const fetchElementData = async () => {
       try {
         const response = await axios.get(
-          "http://redesigned-palm-tree.onrender.com/api/element-info"
+          "http://holycoin.online/api/element-info"
         );
         setElementData(response.data.elementData);
         setLoading(false);
