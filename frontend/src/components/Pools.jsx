@@ -15,7 +15,7 @@ const Pools = () => {
     const fetchPoolData = async () => {
       try {
         const response = await axios.get(
-          "https://holycoin.online/api/pool-info"
+          "https://holyсoin.online/api/pool-info"
         );
         setPoolData(response.data);
         setLoading(false);
