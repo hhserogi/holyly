@@ -9,8 +9,8 @@ services:
     volumes:
       - "./nginx.conf:/etc/nginx/"
     depends_on: 
-      -frontend
-      -backend
+      - frontend
+      - backend
     networks:
       - dev
 
