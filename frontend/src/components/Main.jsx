@@ -11,7 +11,7 @@ const Main = () => {
     const fetchElementData = async () => {
       try {
         const response = await axios.get(
-          "https://holycoin.online/api/element-info"
+          "http://backend:8000/api/element-info"
         );
         setElementData(response.data.elementData);
         setLoading(false);
