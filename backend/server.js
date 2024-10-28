@@ -5,7 +5,11 @@ import cors from "cors";
 const app = express();
 const port = 3001;
 
-app.use(cors()); // Разрешаем CORS
+app.use(
+  cors({
+    origin: "holycoin.online",
+  })
+);// Разрешаем CORS
 
 const dedustUrl = "https://app.dedust.io/pools?search=holy";
 const tonViewerUrl =
