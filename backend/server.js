@@ -7,7 +7,7 @@ const port = 3001;
 
 app.use(
   cors({
-    origin: "holycoin.online",
+    origin: "http://holycoin.online",
   })
 );// Разрешаем CORS
 
