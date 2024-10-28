@@ -7,7 +7,7 @@ const port = 3001;
 
 app.use(
   cors({
-    origin: "http://31.129.44.155",
+    origin: "https://31.129.44.155",
   })
 );// Разрешаем CORS
 
