@@ -1,7 +1,7 @@
 import "./App.css";
-import Main from "./components/Main";
-import NavMenu from "./components/NavMenu";
-import PoolsGrid from "./components/PoolsGrid";
+import Main from "./components/Main.jsx";
+import NavMenu from "./components/NavMenu.jsx";
+import PoolsGrid from "./components/PoolsGrid.jsx";
 import "./index.css";
 
 function App() {
